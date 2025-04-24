@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    color: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    width: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & i {
+        font-size: 90px;
+    }
+
+    & h1 {
+        margin-bottom: 30px;
+    }
+}
+
+
+.bg-manha {
+    background-color: #6790ff;    
+}
+
+.bg-tarde {
+    background-color: #eea531;
+}
+
+.bg-noite {
+    background-color: #162755;
+}
